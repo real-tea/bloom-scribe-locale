@@ -184,7 +184,7 @@ const store = createStore(counterReducer);
 
 ## Using Redux with React
 
-To use Redux with React, you wrap your app with a `Provider` and use the `connect` function to connect components to the store:
+To use Redux with React, you wrap your app with a \`Provider\` and use the \`connect\` function to connect components to the store:
 
 \`\`\`jsx
 import { Provider, connect } from 'react-redux';

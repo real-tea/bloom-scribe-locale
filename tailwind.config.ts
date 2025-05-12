@@ -103,8 +103,18 @@ export default {
       fontFamily: {
         serif: ['Merriweather', 'serif'],
         sans: ['Inter', 'sans-serif'],
-      }
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '100%',
+          },
+        },
+      },
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [
+    require("tailwindcss-animate"),
+    require("@tailwindcss/typography")
+  ],
 } satisfies Config;
